@@ -1,0 +1,39 @@
+
+/*====================
+    Formatação Geral
+======================*/
+html body {
+    margin: 5vw 10vw 5vw 10vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*==============================
+    Formatação topo da página
+===============================*/
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 2vw 1vw 2vw 1vw;
+    color: #553C16;
+    font-weight: 800;
+}
+
+section.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
