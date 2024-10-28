@@ -32,8 +32,121 @@ header nav ul li a {
     font-weight: 800;
 }
 
+/*==========================
+    Formatação da página
+============================*/
+
 section.banner {
     display: flex;
     justify-content: space-between;
 }
 
+section.banner img {
+    margin: 8vw 3vw 8vw 1vw; 
+
+}
+
+section.banner div h1 {
+    font-size: 3rem;
+    line-height: 45px;
+    word-spacing: 10px;
+    padding: 10vw 3vw 3vw 11vw;
+}
+
+section.banner div hr {
+    margin: 0 27vw 0 11vw ;
+}
+
+section.banner div p {
+    color: #404852;
+    margin: 3vw 5vw 3vw 11vw;
+    line-height: 25px;
+}
+
+section.banner div.samantha {
+    display: flex;
+}
+
+section.banner div.samantha img {
+    margin: 0 0 30vw 11vw ;
+}
+
+section.banner div.samantha p {
+    margin: 0 0 30vw 2vw;
+    line-height: 20px;
+
+}
+
+section.banner div.samantha p span {
+    color: black;
+}
+
+section.study hr {
+    margin: 2vw 0 2vw 0;
+}
+
+section.study div#list {
+    display: flex;
+}
+
+section.study div#list h2 {
+    font-size: 3.6rem;
+    margin: 8vw 0 3vw 0;
+}
+
+section.study div.lorem p {
+    margin: 1vw 0 0 0;
+    line-height: 25px;
+    word-spacing: 3px;
+    color: #404852;
+}
+
+section.study div.case {
+    margin: 6vw 0 10vw 15vw;
+
+}
+section.study div.case li {
+    margin: 3vw 0 5vw 0;
+}
+
+section.study div.case li h3 {
+    margin: 2vw 0 3vw 0;
+    word-spacing: 15px;
+    font-size: 2rem;
+}
+
+section.study div.case li h3 span {
+    color: #404852;
+    font-size: 1.5rem;
+}   
+
+section.study div.case li hr {
+    margin: 3vw 0 0 0;
+}
+
+section.study div.case li p {
+    color: #404852;
+    margin: 0 0 0 5vw ;
+}
+
+
+
+footer {
+    color:#21243D;
+    text-align: center;
+}
+
+footer hr {
+    margin: 2vw 0 2vw 0;
+    color: #404852;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 2vw 0 1.5vw 0;
+}
+
+footer ul li {
+    padding: 0 1vw 0 0;
+}
